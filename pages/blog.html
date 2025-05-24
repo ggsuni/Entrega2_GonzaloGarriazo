@@ -1,94 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
-    <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-<header>
-    <div class="header-container">
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <input
+          type="checkbox"
+          id="checkbox1"
+          class="checkbox1 visuallyHidden"
+        />
+        <label for="checkbox1" class="checkbox">
+          <div class="hamburger hamburger1">
+            <span class="bar bar1"></span>
+            <span class="bar bar2"></span>
+            <span class="bar bar3"></span>
+            <span class="bar bar4"></span>
+          </div>
+        </label>
+        <div class="off-screen-menu">
+          <ul class="nav-menu-mobile">
+            <li><a href="../index.html">Dashboard</a></li>
+            <li><a href="../pages/about.html">Sobre mí</a></li>
+            <li><a href="../pages/portfolio.html">Portafolio</a></li>
+            <li><a href="../pages/blog.html">Blog</a></li>
+            <li><a href="../pages/contact.html">Contacto</a></li>
+          </ul>
+        </div>
         <div class="logo-container">
-            <span>PORTAFOLIO PERSONAL</span>
-            <a href="../index.html">
-                <img src="../assets/ggs.jpg" alt="logo" width="50px"/>
-            </a>
+          <a class="title_header" href="../index.html">
+            <span>PORTAFOLIO PERSONAL</span></a
+          >
+          <a href="../index.html">
+            <img src="../assets/ggs.jpg" alt="logo" width="50px" />
+          </a>
         </div>
         <nav class="nav-menu">
-            <ul>
-                <li><a href="../pages/about.html">Sobre mí</a></li>
-                <li><a href="../pages/portfolio.html">Portafolio</a></li>
-                <li><a href="../pages/blog.html">Blog</a></li>
-                <li><a href="../pages/contact.html">Contacto</a></li>
-            </ul>
+          <ul>
+            <li><a href="../pages/about.html">Sobre mí</a></li>
+            <li><a href="../pages/portfolio.html">Portafolio</a></li>
+            <li><a href="../pages/blog.html">Blog</a></li>
+            <li><a href="../pages/contact.html">Contacto</a></li>
+          </ul>
         </nav>
-    </div>
-</header>
+      </div>
+    </header>
 
     <main>
+      <div class="banner_container" style="margin-top: 20px">
+        <img
+          src="../assets/banner_index.jpg"
+          alt="banner landing"
+          height="250px"
+          width="100%"
+        />
+      </div>
 
-        <div class="banner_container">
-            <img src="../assets/banner_index.jpg"
-            alt="banner landing"
-            height="250px"
-            width="100%">
-        </div>
-
-
-        <section class="bajada">
-            <h1>La ruta del diseñador</h1>
-            <p>Bienvenidos a mi blog Ruta del diseñado. En este espacio relato diferentes experiencias de mi cotidiano personal y profesional.</p>
-        </section>
+      <section class="bajada">
+        <h1>La ruta del diseñador</h1>
+        <p>
+          Bienvenidos a mi blog Ruta del diseñado. En este espacio relato
+          diferentes experiencias de mi cotidiano personal y profesional.
+        </p>
+      </section>
+      <div class="entry_container">
         <section class="entradas">
-            <article class="entrada">
-                <div>
-                    <img src="../assets/destacados.jpg" alt="banner landing" height="280px" width="360px">
-                    <h2>Empecé clases de desarrollo web</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <h3>Estudios</h3><h3>Diseño web</h3>
-                </div>
-            </article>
-            <article class="entrada">
-                <div>
-                    <img src="../assets/destacados.jpg" alt="banner landing" height="280px" width="360px">
-                    <h2>Aprendo a pintar miniaturas de Calabozos y Dragones</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <h3>Arte plástico</h3><h3>Juegos de mesa</h3>
-                </div>
-            </article>
-            <article class="entrada">
-                <div>
-                    <img src="../assets/destacados.jpg" alt="banner landing" height="280px" width="360px">
-                    <h2>Inicio de periodo alto en mi trabajo</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <h3>Agencia</h3><h3>Diseño gráfico</h3>
-                </div>
-            </article>
-            <article class="entrada">
-                <div>
-                    <img src="../assets/destacados.jpg" alt="banner landing" height="280px" width="360px">
-                    <h2>Aprendiendo sobre aerografía</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <h3>Arte plástico</h3><h3>Hobby</h3>
-                </div>
-            </article>
+          <article class="entrada">
+            <img
+              src="../assets/destacados.jpg"
+              alt="banner landing"
+              height="280px"
+              width="360px"
+            />
+            <h2>Empecé clases de desarrollo web</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="button_container">
+              <h3>Estudios</h3>
+              <h3>Diseño web</h3>
+            </div>
+          </article>
+          <article class="entrada">
+            <img
+              src="../assets/destacados.jpg"
+              alt="banner landing"
+              height="280px"
+              width="360px"
+            />
+            <h2>Aprendo a pintar miniaturas de Calabozos y Dragones</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="button_container">
+              <h3>Arte plástico</h3>
+              <h3>Juegos de mesa</h3>
+            </div>
+          </article>
+          <article class="entrada">
+            <img
+              src="../assets/destacados.jpg"
+              alt="banner landing"
+              height="280px"
+              width="360px"
+            />
+            <h2>Inicio de periodo alto en mi trabajo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="button_container">
+              <h3>Agencia</h3>
+              <h3>Diseño gráfico</h3>
+            </div>
+          </article>
+          <article class="entrada">
+            <img
+              src="../assets/destacados.jpg"
+              alt="banner landing"
+              height="280px"
+              width="360px"
+            />
+            <h2>Aprendiendo sobre aerografía</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="button_container">
+              <h3>Arte plástico</h3>
+              <h3>Hobby</h3>
+            </div>
+          </article>
         </section>
-
+      </div>
     </main>
 
     <footer>
-        <div class="logo-footer">
-            <img src="../assets/ggs.jpg" alt="logo" height="80px" width="80px">
-        </div>
+      <div class="logo-footer">
+        <img src="../assets/ggs.jpg" alt="logo" height="100%" width="100%" />
+      </div>
 
-        <div class="redes-sociales-footer">
-            <img src="../assets/facebook-logo.webp" alt="Facebook" height="40px" width="40px">
-            <img src="../assets/linkedin-logo.webp" alt="LinkedIn" height="40px" width="40px">
-            <img src="../assets/behance-logo.svg" alt="Behance" height="40px" width="40px">
-        </div>
+      <div class="redes-sociales-footer">
+        <img
+          src="../assets/facebook-logo.webp"
+          alt="Facebook"
+          height="100%"
+          width="100%"
+        />
+        <img
+          src="../assets/linkedin-logo.webp"
+          alt="LinkedIn"
+          height="100%"
+          width="100%"
+        />
+        <img
+          src="../assets/behance-logo.svg"
+          alt="Behance"
+          height="100%"
+          width="100%"
+        />
+      </div>
 
-        <div class="marca-footer">Marca registrada por nadie</div>
+      <div class="marca-footer">Marca registrada por nadie</div>
     </footer>
-</body>
+    <script src="../script/showMenu.js"></script>
+  </body>
 </html>
